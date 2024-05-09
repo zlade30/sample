@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Public Sans', system-ui, sans-serif;
+    }
+}
+
+input[type='checkbox'] {
+    accent-color: #8f85f3;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 68px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.subtitle-1 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.subtitle-2 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.body-1 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.body-2 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+caption {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.overline {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.btn-text-large {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.btn-text-medium {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.btn-text-small {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.input-label {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.helper-text {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+}
+
+.input-text-large {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.input-text {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.input-text-small {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.avatar-initials {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.chip {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.tooltip {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.alert-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.table-header {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.badge-label {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.toast {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
